@@ -1,0 +1,45 @@
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Frame_2 = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local ImageLabel = Instance.new("ImageLabel")
+local TextBox = Instance.new("TextBox")
+
+--Properties:
+
+ScreenGui.Parent = game.Workspace
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Frame.Position = UDim2.new(0.131914884, 0, 0.244171768, 0)
+Frame.Size = UDim2.new(0, 551, 0, 357)
+
+UICorner.Parent = Frame
+
+Frame_2.Parent = ScreenGui
+Frame_2.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+Frame_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Frame_2.Position = UDim2.new(0.131914899, 0, 0.244171783, 0)
+Frame_2.Size = UDim2.new(0, 147, 0, 357)
+
+UICorner_2.Parent = Frame_2
+
+ImageLabel.Parent = ScreenGui
+ImageLabel.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+ImageLabel.BorderColor3 = Color3.fromRGB(26, 26, 26)
+ImageLabel.Position = UDim2.new(0.149544075, 0, 0.251533747, 0)
+ImageLabel.Size = UDim2.new(0, 88, 0, 82)
+ImageLabel.Image = "rbxassetid://8652522964"
+
+TextBox.Parent = ScreenGui
+TextBox.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextBox.BorderColor3 = Color3.fromRGB(26, 26, 26)
+TextBox.Position = UDim2.new(0.136778116, 0, 0.352147192, 0)
+TextBox.Size = UDim2.new(0, 130, 0, 46)
+TextBox.Font = Enum.Font.SourceSansSemibold
+TextBox.Text = "MAIN"
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextSize = 18.000
